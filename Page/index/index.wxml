@@ -1,0 +1,11 @@
+<view class="box">
+  <view class="title">Z国彩票在线</view>
+  <view style="color: brown;font-size: 20px;margin-bottom: 100px;display: flex;flex-direction: column;">
+   <view style="margin-bottom: 20px;">彩票号码：</view>
+   <view class="flex-wrp">
+    <view wx:for="{{rand}}">{{item}}</view>
+  </view>
+  </view>
+  <button type="primary" bindtap="new">生成</button>
+  <view style="margin-top: 300rpx;text-align: center;color: rgb(189, 96, 53);">电科19-2刘海涛  “勇敢牛牛，不怕困难”</view>
+</view>
